@@ -1,8 +1,3 @@
-# MI-Corazon
-Her, her and only herr
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,22 +17,33 @@ Her, her and only herr
             overflow: hidden;
             font-family: "Segoe Print", "Comic Sans MS", cursive;
         }
-        .nickname {
+        .container {
+            text-align: center;
+        }
+        .main-title {
             color: #8A2BE2; /* Stark Neon-Violet */
             font-size: 3.5rem;
             font-weight: bold;
+            margin: 0;
             opacity: 0;
             transform: translateY(20px);
-            animation: revealText 1.5s ease-out 1s forwards;
+            animation: revealText 1.5s ease-out 0.5s forwards;
+        }
+        .short-form {
+            color: #8A2BE2;
+            font-size: 1.8rem;
+            margin-top: -5px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeInSub 1s ease-in 1.8s forwards;
         }
         .subtext {
             font-family: monospace;
             color: #555;
             font-size: 0.75rem;
-            margin-top: 15px;
             letter-spacing: 2px;
             opacity: 0;
-            animation: fadeInSub 1s ease-in 2.5s forwards;
+            animation: fadeInSub 1s ease-in 2.8s forwards;
         }
         @keyframes revealText {
             to {
@@ -53,8 +59,10 @@ Her, her and only herr
     </style>
 </head>
 <body>
-    <div class="nickname">Dione</div>
-    <div class= " shortform">Dio</div>    
-    <div class="subtext">[server_sync_complete // asset_vault_encrypted]</div>
+    <div class="container">
+        <div class="main-title">Dione</div>
+        <div class="short-form">( Dio )</div>
+        <div class="subtext">[server_sync_complete // asset_vault_encrypted]</div>
+    </div>
 </body>
 </html>
