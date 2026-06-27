@@ -53,7 +53,8 @@ Her, her and only herr
     </style>
 </head>
 <body>
-    <div class="nickname">Dio</div>
+    <div class="nickname">Dione</div>
+    <div class= " shortform">Dio</div>    
     <div class="subtext">[server_sync_complete // asset_vault_encrypted]</div>
 </body>
 </html>
